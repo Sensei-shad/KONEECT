@@ -30,11 +30,17 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
   const getNoCallsMessage = () => {
     switch (type) {
       case 'ended':
-        return 'No Previous Calls';
+        return(
+          <div className='flex flex-col text-black dark:text-white'>No Previous Calls</div>
+        );
       case 'upcoming':
-        return 'No Upcoming Calls';
+        return(
+          <div className='flex flex-col text-black dark:text-white'>No Upcoming Calls</div>
+        );
       case 'recordings':
-        return 'No Recordings';
+        return(
+          <div className='flex flex-col text-black dark:text-white'>No Recordings</div>
+        );
       default:
         return '';
     }

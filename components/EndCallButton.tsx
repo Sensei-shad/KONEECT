@@ -19,7 +19,7 @@ const EndCallButton = () => {
         <Button onClick={async () => {
             await call.endCall();
             router.push('/')
-        }} className="bg-lime-500 "> 
+        }} className="bg-red-700 hover:bg-opacity-80"> 
             End call for everyone
         </Button>
     )

@@ -25,10 +25,10 @@ const MeetingSetup = ({ setIsSetupComplete }: {setIsSetupComplete: (value: boole
   
 
   return (
-    <div className="flex h-screen w-full flex-col items-center justify-center gap-3 text-white">
-      <h1 className="text-2xl font-bold">Setup</h1>
-      <VideoPreview />
-      <div className="flex h-16 items-center justify-center gap-3">
+    <div className="flex flex-col h-screen justify-center items-center gap-3 text-black dark:text-white">
+      <h1 className="text-2xl font-bold">Joining a meeting</h1>
+      <VideoPreview className="w-full max-w-[90%] max-h-[50%]"/>
+      <div className="flex items-center justify-center gap-3">
         <label className="flex items-center justify-center gap-2 font-medium">
           <input 
           type="checkbox"
@@ -38,9 +38,8 @@ const MeetingSetup = ({ setIsSetupComplete }: {setIsSetupComplete: (value: boole
           Join with mic and camera off
         </label>
         <DeviceSettings />
-
       </div>
-      <Button className="rounded-md bg-pink-500 px-4 py-2.5" onClick={() => {
+      <Button className="rounded-md bg-green-600 bg-opacity-85 px-4 py-2.5 text-white" onClick={() => {
         call.join();
 
         setIsSetupComplete(true);
