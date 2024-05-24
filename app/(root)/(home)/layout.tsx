@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const HomeLayout = ({ children}: { children: ReactNode}) => {
   return (
-    <main className = 'relative'>
+    <main className = 'relative bg-white dark:bg-black'>
         <Navbar/>
 
         <div className='flex'> 

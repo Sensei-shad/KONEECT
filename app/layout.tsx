@@ -49,11 +49,9 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <body className={`${inter.className} bg-[#91c12e] dark:bg-black transition-opacity-colors duration-300`}>
+        <body className={`${inter.className} bg-[#ffffff] dark:bg-black transition-opacity-colors duration-300`}>
+        <img className="fixed top-1 left-7 aria-hidden:true hidden" src="/icons/intro.svg" height={260} width={260}/>
           {children}
-          <div className="flex fixed top-1">
-            <img className="animate-in duration-1000 transition-opacity-colors fade-in-5" src="/icons/intro.svg" width={200} height={200} alt="intro"/>
-          </div>
           <div className="animate-in duration-1000 transition-opacity-colors fade-in-10">
           <Toaster />
           </div>
