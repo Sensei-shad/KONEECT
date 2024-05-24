@@ -50,7 +50,7 @@ export default function RootLayout({
       }}
     >
       <html lang="en">
-        <body className={`${inter.className} bg-black dark:bg-black transition-opacity-colors duration-300`}>
+        <body className={`${inter.className} bg-[#ffffff] dark:bg-black transition-opacity-colors duration-300`}>
         <img className="fixed top-1 left-7 aria-hidden:true hidden" src="/icons/intro.svg" height={260} width={260}/>
           {children}
           <div className="animate-in duration-1000 transition-opacity-colors fade-in-10">
