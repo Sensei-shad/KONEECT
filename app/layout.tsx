@@ -31,22 +31,32 @@ export default function RootLayout({
       appearance={{
         layout: {
           logoPlacement: 'none',
-          socialButtonsVariant: 'blockButton'
+          socialButtonsVariant: 'auto',
+          socialButtonsPlacement: 'bottom'
         },
         variables: {
-          colorText: '#000000',
+          colorText: '#ffffff',
           colorPrimary: '#38761d',
-          colorBackground: '#ffffff',
-          colorInputBackground: '#ffffff',
-          colorInputText: '#000000',
-          colorNeutral: 'black'
+          colorBackground: '#91c12e',
+          colorInputBackground: '#f3f6f4',
+          colorInputText: 'black',
+          colorNeutral:'black',
+          colorDanger:'',
+          colorTextOnPrimaryBackground:'white',
+          colorTextSecondary:'white',
+          colorWarning:'white'
         }
       }}
     >
       <html lang="en">
-        <body className={`${inter.className} bg-white dark:bg-black transition-opacity-colors duration-300`}>
+        <body className={`${inter.className} bg-[#91c12e] dark:bg-black transition-opacity-colors duration-300`}>
           {children}
+          <div className="flex fixed top-1">
+            <img className="animate-in duration-1000 transition-opacity-colors fade-in-5" src="/icons/intro.svg" width={200} height={200} alt="intro"/>
+          </div>
+          <div className="animate-in duration-1000 transition-opacity-colors fade-in-10">
           <Toaster />
+          </div>
         </body>
       </html>
     </ClerkProvider>
