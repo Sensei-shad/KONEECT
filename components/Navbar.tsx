@@ -8,7 +8,7 @@ import ThemeToggle from './ThemeToggle'; // Adjust the import path as necessary
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between fixed z-50 w-full bg-transparent dark:bg-black px-6 py-4 lg:px-10'>
+    <nav className='flex justify-between fixed z-50 w-full bg-transparent dark:bg-transparent px-6 py-4 lg:px-10'>
       <Link href="/" className="flex items-center gap-1">
         <Image
           src="/icons/logo.svg"
