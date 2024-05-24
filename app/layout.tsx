@@ -30,14 +30,15 @@ export default function RootLayout({
     <ClerkProvider
       appearance={{
         layout: {
-          logoPlacement: 'none',
+          logoPlacement: 'inside',
+          logoLinkUrl: '/icons/logo.svg',
           socialButtonsVariant: 'auto',
-          socialButtonsPlacement: 'bottom'
+          socialButtonsPlacement: 'bottom',
         },
         variables: {
           colorText: '#ffffff',
-          colorPrimary: '#38761d',
-          colorBackground: '#91c12e',
+          colorPrimary: '#7fb60d',
+          colorBackground: '#004E25',
           colorInputBackground: '#f3f6f4',
           colorInputText: 'black',
           colorNeutral:'black',
