@@ -37,8 +37,8 @@ export default function RootLayout({
         },
         variables: {
           colorText: '#ffffff',
-          colorPrimary: '#7fb60d',
-          colorBackground: '#004E25',
+          colorPrimary: '#2d581d',
+          colorBackground: '#92af68',
           colorInputBackground: '#f3f6f4',
           colorInputText: 'black',
           colorNeutral:'black',
