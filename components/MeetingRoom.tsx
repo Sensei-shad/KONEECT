@@ -65,7 +65,7 @@ const MeetingRoom = () => {
   }
 
   return (
-    <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
+    <section className="relative h-screen w-full overflow-hidden pt-4 text-white bg-white dark:bg-black">
       <div className="relative flex h-full w-full items-center justify-center">
         <div className="flex h-full w-full max-w-screen-xl items-center justify-center p-2">
           {CallLayout}
@@ -76,7 +76,7 @@ const MeetingRoom = () => {
           </div>
         )}
       </div>
-      <div className="fixed bottom-0 w-full bg-gray-900/75 py-2">
+      <div className="fixed bottom-0 w-full bg-transparent py-2">
         <div className="flex flex-wrap w-full items-center justify-center gap-2 md:gap-5 px-2">
           <CallControls onLeave={handleLeaveCall} />
           <DropdownMenu>

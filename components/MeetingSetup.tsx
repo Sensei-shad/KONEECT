@@ -25,11 +25,12 @@ const MeetingSetup = ({ setIsSetupComplete }: {setIsSetupComplete: (value: boole
   
 
   return (
-    <div className="flex flex-col h-screen justify-center items-center gap-3 text-white dark:text-white">
+    <div className="flex flex-col h-screen justify-center items-center gap-3 text-black dark:text-white bg-white dark:bg-black">
+      <img src='/icons/intro.svg' width={180} height={180} className='fade-in-5'/>
       <h1 className="text-2xl font-bold">Joining a meeting</h1>
       <VideoPreview className="w-full max-w-[90%] max-h-[50%]"/>
       <div className="flex items-center justify-center gap-3">
-        <label className="flex items-center justify-center gap-2 font-medium text-white dark:text-white">
+        <label className="flex items-center justify-center gap-2 font-medium text-black dark:text-white">
           <input 
           type="checkbox"
           checked={isMicCamToggledOn}
