@@ -67,7 +67,7 @@ const MeetingRoom = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden pt-4 text-white bg-white dark:bg-black">
       <div className="relative flex h-full w-full items-center justify-center">
-        <div className="flex h-full w-full max-w-screen-xl items-center justify-center p-2">
+        <div className="flex h-full w-full max-w-screen-xl items-center justify-center p-5">
           {CallLayout}
         </div>
         {showParticipants && (
