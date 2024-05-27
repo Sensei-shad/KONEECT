@@ -7,9 +7,31 @@
    viewBox="0 0 1024 768"
    version="1.1"
    id="svg1"
+   sodipodi:docname="intro.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.57128906"
+     inkscape:cx="512"
+     inkscape:cy="383.34359"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
   <g
@@ -33,6 +55,6 @@
          id="tspan2"
          x="348.16144"
          y="437.05209"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.333px;line-height:11.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';fill:#2c4945;fill-opacity:1">KONNECT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.333px;line-height:11.9;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';fill:#2c4945;fill-opacity:1">KONEECT</tspan></text>
   </g>
 </svg>
