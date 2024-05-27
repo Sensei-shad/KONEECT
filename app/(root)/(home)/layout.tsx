@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react'
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "KONNECT",
+  title: "KONEECT",
   description: "Where Shared Bonds Begin",
   icons: {
     icon: '/icons/logo.svg'
