@@ -3,7 +3,7 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 const Home = () => {
   const now = new Date();
 
-  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Kolkata' }); // Replace 'Asia/Kolkata' with your time zone
+  const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' }); // Replace 'Asia/Kolkata' with your time zone
   const date = new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeZone: 'Asia/Kolkata' }).format(now); // Ensure date is formatted in the same time zone
 
   return (
