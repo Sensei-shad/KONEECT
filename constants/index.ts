@@ -17,14 +17,18 @@ export const sidebarLinks = [
     {
         label: 'Recordings',
         route: '/recordings',
-        imgUrl: '/icons/recordings-dark.svg',
+        imgUrl: '/icons/Video.svg',
     },
     {
         label: 'Personal Room',
         route: '/personal-room',
         imgUrl: '/icons/add-personal.svg',
     },
-
+    {
+        label: 'record_icon',
+        route: '/record',
+        imgUrl: '/icons/recordings-dark.svg'
+    }
 ]
 
 export const avatarImages = [
