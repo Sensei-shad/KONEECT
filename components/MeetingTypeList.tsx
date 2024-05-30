@@ -122,8 +122,8 @@ const MeetingTypeList = () => {
           handleClick={createMeeting}
         >
           <div className="flex flex-col gap-2.5">
-            <label className="text-base text-normal leading-[22px] text-sky-400">Add a description </label>
-            <Textarea className="border-none bg-slate-800 focus-visible:ring-0 focus-visible:ring-offset-0" 
+            <label className="text-base text-normal leading-[22px]">Add a description </label>
+            <Textarea className="border-none text-black dark:text-white bg-lime-50 dark:bg-slate-800 focus-visible:ring-0 focus-visible:ring-offset-0" 
               onChange={(e) => {
                 setValues({ ...values, description: e.target.value })
               }}
@@ -139,7 +139,7 @@ const MeetingTypeList = () => {
               timeIntervals={15}
               timeCaption="time"
               dateFormat="MMM d, yyyy h:mm aa" 
-              className="w-full rounded bg-slate-800 p-2 focus:outline-none"
+              className="w-full rounded text-black dark:text-white bg-lime-50 dark:bg-slate-800 p-2 focus:outline-none"
             />
           </div>
         </MeetingModal>
@@ -178,7 +178,7 @@ const MeetingTypeList = () => {
       >
         <Input
           placeholder="Meeting link"
-          className="border-none bg-slate-800 focus-visible:ring-0 focus-visible:ring-offset-0"
+          className="border-none text-black dark:text-white bg-lime-50 dark:bg-slate-800 focus-visible:ring-0 focus-visible:ring-offset-0"
           onChange={(e) => setValues({ ...values, link: e.target.value })}
         />
       </MeetingModal>
