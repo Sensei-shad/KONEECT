@@ -100,7 +100,7 @@ const MeetingTypeList = () => {
         className="bg-blue-500"
       />
       <HomeCard
-        img={getIcon('/icons/record')}
+        img={getIcon('/icons/recordings-dark.svg')}
         title="View Recordings"
         description="Check out your recordings"
         handleClick={() => router.push('/recordings')}

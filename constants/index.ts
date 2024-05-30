@@ -24,11 +24,6 @@ export const sidebarLinks = [
         route: '/personal-room',
         imgUrl: '/icons/add-personal.svg',
     },
-    {
-        label: 'record_icon',
-        route: '/record',
-        imgUrl: '/icons/recordings-dark.svg'
-    }
 ]
 
 export const avatarImages = [
