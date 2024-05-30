@@ -79,7 +79,7 @@ const MeetingTypeList = () => {
     }
   }
 
-  const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${callDetails?.id}`
+  const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${callDetails?.id}?personal=true`
 
   const getIcon = (icon: string) => isDarkMode ? `${icon}-dark.svg` : `${icon}.svg`;
 
