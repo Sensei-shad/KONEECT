@@ -1,26 +1,70 @@
-npx shadcn-ui@latest add sheet
-npm install @clerk/nextjs
-npx shadcn-ui@latest add dialog
-npm install @stream-io/video-react-sdk
-npm install @stream-io/node-sdk
-npx shadcn-ui@latest add textarea
-npx shadcn-ui@latest add dropdown-menu
-npm install react-datepicker
-npm i --save-dev @types/react-datepicker
-npx shadcn-ui@latest add input
 
-Don't forget to open the conf_001 folder with vscode
+# KONEECT
 
-Next install these extensions in vscode: ------
-ES7+ React/Redux/React-Native snippets - by *dsznajder
-Tailwind CSS Intellisense - by *Tailwind Labs
-vscode-icons - by *VSCode Icons Team [go to the extension and set the icon pack active, TOTALLY OPTIONAL]
+Video calling platform made by students of Ideal Institute of Enginnering as their minor project of 3rd Year. The group consist of 4 students - Sounak Chakraborty, Barun Karmakar, Supratik Chakraborty and Biju Kar.
 
-TO RUN IT LOCALLY
-npm run dev (while inside the project using powershell or inside the VSCODE TERMINAL)
 
-Very Important Note:-
-Ofcourse I deleted my stream and clerk api key and api secret. Open account put your secret key in the .env.local file and run it. So that you can have full control over the project and your account. All you need to do is open account and put your key and secret and rest of the work of the clerk section of the video is done already. Refer to these ---->>
+## Run Locally
 
-1. Clerk ->> 	https://youtu.be/R8CIO1DZ2b8?si=clp3SABnkZpSJ4-D&t=3746
-2. Stream ->> 	https://youtu.be/R8CIO1DZ2b8?si=kx1Kb_sAXsD9ceP1&t=6836
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd (project_location)
+```
+
+Install dependencies
+
+```bash
+  npm install nodejs
+  npm install nextjs
+  npx shadcn-ui@latest init
+  npx shadcn-ui@latest add button
+  npx shadcn-ui@latest add sheet
+  npm install @clerk/nextjs
+  npx shadcn-ui@latest add dialog
+  npm install @stream-io/video-react-sdk
+  npm install @stream-io/node-sdk
+  npx shadcn-ui@latest add textarea
+  npx shadcn-ui@latest add dropdown-menu
+  npm install react-datepicker
+  npm i --save-dev @types/react-datepicker
+  npx shadcn-ui@latest add input
+```
+
+.env.local
+
+```
+  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= **INSERT**
+  CLERK_SECRET_KEY= **INSERT**
+  
+  NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+  NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+  
+  NEXT_PUBLIC_STREAM_API_KEY= **INSERT**
+  STREAM_SECRET_KEY= **INSERT**
+  
+  NEXT_PUBLIC_BASE_URL=localhost:3000 (for local machine it is localhost:300
+  but in case of hosting change it to the domain name you choose)
+```
+
+Extensions of VSCode (Optional)
+
+```
+  ES7+ React/Redux/React-Native snippets - by *dsznajder
+  Tailwind CSS Intellisense - by *Tailwind Labs
+  vscode-icons - by *VSCode Icons Team
+```
+
+Run
+
+```bash
+  npm run dev
+```
+
+
