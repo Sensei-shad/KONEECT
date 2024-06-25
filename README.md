@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+npx shadcn-ui@latest add sheet
+npm install @clerk/nextjs
+npx shadcn-ui@latest add dialog
+npm install @stream-io/video-react-sdk
+npm install @stream-io/node-sdk
+npx shadcn-ui@latest add textarea
+npx shadcn-ui@latest add dropdown-menu
+npm install react-datepicker
+npm i --save-dev @types/react-datepicker
+npx shadcn-ui@latest add input
 
-## Getting Started
+Don't forget to open the conf_001 folder with vscode
 
-First, run the development server:
+Next install these extensions in vscode: ------
+ES7+ React/Redux/React-Native snippets - by *dsznajder
+Tailwind CSS Intellisense - by *Tailwind Labs
+vscode-icons - by *VSCode Icons Team [go to the extension and set the icon pack active, TOTALLY OPTIONAL]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TO RUN IT LOCALLY
+npm run dev (while inside the project using powershell or inside the VSCODE TERMINAL)
 
-Open  https://koneect.vercel.app/ with your browser to see the result.
+Very Important Note:-
+Ofcourse I deleted my stream and clerk api key and api secret. Open account put your secret key in the .env.local file and run it. So that you can have full control over the project and your account. All you need to do is open account and put your key and secret and rest of the work of the clerk section of the video is done already. Refer to these ---->>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clerk ->> 	https://youtu.be/R8CIO1DZ2b8?si=clp3SABnkZpSJ4-D&t=3746
+2. Stream ->> 	https://youtu.be/R8CIO1DZ2b8?si=kx1Kb_sAXsD9ceP1&t=6836
